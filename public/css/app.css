@@ -1,0 +1,270 @@
+body {
+    background-color: white;
+    font-family: "Source Serif Pro", serif;
+    color: whitesmoke;
+}
+
+.carousel {
+    background-color: black;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    bottom: 0;
+}
+#quranRecitation p {
+    color: #a08c5b;
+}
+
+#darkingBackground {
+    opacity: 0.8;
+}
+
+.titleSection {
+    font-family: "Cookie", cursive;
+    font-size: 2.5rem;
+    color: #cbb682;
+}
+
+#intersection p {
+    font-family: "Cookie", cursive;
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+#section-1 h1 {
+    font-family: "Pinyon Script", cursive;
+    font-size: 3em;
+    opacity: 80%;
+}
+
+#section-1 h5 {
+    font-weight: bolder;
+    opacity: 80%;
+}
+
+#section-1 button {
+    font-weight: lighter;
+    color: white;
+    background-color: transparent;
+}
+
+#section-1 button:hover {
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #0081a7;
+    color: #0081a7;
+}
+
+#boxAkad {
+    /* box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px,
+        rgba(255, 255, 255, 0.23) 0px 6px 6px; */
+    border: 1px solid #a08c5b;
+}
+
+#coverPage {
+    background-size: cover;
+    height: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: whitesmoke;
+    background-color: black;
+    background-position: center;
+    color: #a08c5b;
+}
+#buttonOpen {
+    background-color: #785f37;
+}
+
+#coverPage h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5em;
+}
+
+#groom h5:nth-of-type(1),
+#bride h5:nth-of-type(1) {
+    color: #a08c5b;
+}
+
+#healthProtocol p {
+    color: #a08c5b;
+}
+
+#placeDetails {
+    color: #a08c5b;
+}
+
+#dateBox {
+    background-color: #785f37;
+}
+
+#closingTag {
+    background-size: cover;
+    height: 65%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: whitesmoke;
+    background-color: black;
+    background-position: bottom;
+}
+
+#closingTag h3 {
+    font-family: "Merriweather", serif;
+}
+
+#closingTag h3:nth-of-type(2) {
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#section-4 .carousel-item {
+    width: 100%;
+    height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+
+#section-5 .carousel-item {
+    width: 100%;
+    height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+
+#card-rausyan img {
+    width: 16rem;
+    height: 12rem;
+    object-fit: cover;
+    object-position: 0px -50px;
+}
+
+#card-dede h2,
+#card-rausyan h2 {
+    font-size: 1.1em;
+}
+
+#card-dede p,
+#card-rausyan p {
+    font-size: 0.85em;
+}
+
+#card-dede,
+#card-rausyan {
+    padding-right: 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: 0;
+    color: whitesmoke;
+    background: linear-gradient(
+        30deg,
+        #c6c4c0 -70%,
+        #a08c5b 20%,
+        #a08c5b 80%,
+        #c6c4c0 300%
+    );
+}
+
+#card-dede img {
+    width: 16rem;
+    height: 12rem;
+    object-fit: cover;
+    object-position: 0px -50px;
+}
+
+#groom h5:nth-of-type(2) {
+    writing-mode: vertical-lr;
+    text-orientation: initial;
+    color: #a08c5b;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#bride h5:nth-of-type(2) {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #a08c5b;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.comment-section {
+    max-height: 60vh;
+    max-width: 100%;
+    background-color: #181510;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.comment-section::-webkit-scrollbar {
+    width: 12px;
+}
+
+.comment-section::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+.comment-section::-webkit-scrollbar-thumb {
+    background-color: #f07167;
+    border-radius: 100px;
+}
+
+.comment {
+    height: 10%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #ffff;
+    color: black;
+}
+
+#section-7 {
+    background: linear-gradient(
+        30deg,
+        #c6c4c0 -70%,
+        #a08c5b 20%,
+        #a08c5b 80%,
+        #c6c4c0 300%
+    );
+    color: white;
+}
+
+#section-7 h4 {
+    color: white;
+}
+
+#nameBackground {
+    background-color: #785f37;
+    height: 3.5em;
+    width: 3.5em;
+    font-family: "Merriweather", serif;
+}
