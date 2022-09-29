@@ -50,17 +50,17 @@ app.get(
 
 // GET messages
 app.get(
-    "/inv",
+    "/",
     wrapAsync(async (req, res, next) => {
         const messages = await Message.find({});
-        const { ss } = req.query;
-        res.render("index", { messages, ss });
+        const { s } = req.query;
+        res.render("index", { messages, s });
     })
 );
 
 // POST new message
 app.post(
-    "/inv",
+    "/",
     wrapAsync(async (req, res, next) => {
         const newMessage = new Message(req.body.message);
         await newMessage.save();
@@ -68,6 +68,8 @@ app.post(
     })
 );
 
-app.listen(3000, () => {
-    console.log("Listening to Port 3000.");
-});
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
+}
+app.listen(port);
