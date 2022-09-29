@@ -24,6 +24,22 @@
         />
     </head>
     <body>
+        <section>
+            <iframe
+                src="music/silence.mp3"
+                allow="autoplay"
+                style="display: none"
+                id="iframeAudio"
+            >
+            </iframe>
+            <audio
+                src="music/invitation-song.mp3"
+                id="Audio"
+                autoplay
+                loop
+            ></audio>
+        </section>
+
         <!-- 1st Section: Title and Background -->
         <section
             id="carouselExampleCaptions"
@@ -539,30 +555,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section>
-            <iframe
-                src="music/silence.mp3"
-                allow="autoplay"
-                style="display: none"
-                id="iframeAudio"
-            >
-            </iframe>
-            <audio
-                src="music/invitation-song.mp3"
-                id="Audio"
-                autoplay
-                loop
-            ></audio>
-            <!-- <a onclick="togglePlay()"><button type="button">Ok</button></a>
-            <script>
-                var myAudio = document.getElementById("Audio");
-                var isPlaying = false;
-                function togglePlay() {
-                    my.myAudio.play();
-                }
-            </script> -->
         </section>
 
         <section
