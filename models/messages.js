@@ -1,19 +1,23 @@
 const mongoose = require("mongoose");
 
-const productSchema = new mongoose.Schema({
-    name: {
-        type: String,
-        required: [true, "name can not be blank"],
+const productSchema = new mongoose.Schema(
+    {
+        name: {
+            type: String,
+            required: [true, "name can not be blank"],
+        },
+        isAttending: {
+            type: String,
+            required: true,
+        },
+        message: {
+            type: String,
+        },
     },
-    isAttending: {
-        type: String,
-        required: true,
-    },
-    message: {
-        type: String,
-    },
-    timestamps: true,
-});
+    {
+        timestamps: true,
+    }
+);
 
 const Message = mongoose.model("Message", productSchema);
 
