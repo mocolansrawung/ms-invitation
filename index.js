@@ -52,7 +52,7 @@ app.get(
 app.get(
     "/",
     wrapAsync(async (req, res, next) => {
-        const messages = await Message.sort({ createdAt: -1 }).find({});
+        const messages = await Message.find({}).sort(-createdAt);
         const { s } = req.query;
         res.render("index", { messages, s });
     })
